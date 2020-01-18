@@ -11,10 +11,10 @@ const Footer = () => (
     <Container style={{ maxWidth: "960px" }}>
       <Row>
         <Col>
-          <h3>John Doe</h3>
+          <h3>Alex Paul</h3>
           <p style={{ color: "blueviolet", fontSize: "1.3rem" }}>
             {/*TODO: ADD A MAILTO-LINK */}
-            john.doe@gmail.com
+            alexspaul53@gmail.com
           </p>
           <br />
           <p style={{ fontSize: "1.3rem" }}>
