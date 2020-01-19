@@ -112,7 +112,7 @@ const Footer = () => (
       </Row>
       <Row className="text-center" style={{ marginTop: "3rem" }}>
         <Col>
-          John Doe © {new Date().getFullYear()}, Built with
+          Alex Paul © {new Date().getFullYear()}, Built with
           <i
             className="fas fa-mug-hot"
             style={{
