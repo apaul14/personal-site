@@ -34,3 +34,5 @@ const jumbo_styles = {
 }
 
 export default Hero
+
+
