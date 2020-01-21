@@ -1,27 +1,31 @@
 .jumbo {
   height: 80vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
 }
 
 .jumbo h1 {
   line-height: 125%;
+  flex:2
 }
 
 .jumbo h2 {
   font-size: 2rem;
+
 }
 
 .jumbo h3 {
   font-size: 1.7rem;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
+  /* margin-top: 2rem;
+  margin-bottom: 5rem; */
+  flex: 1;
 }
 .jumbo_content {
   margin-top: 6.5rem;
   margin-bottom: 6rem;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
 }
 
 .jumbo_content p {
@@ -31,6 +35,7 @@
 .jumbo img {
   width: 350px;
   height: 408px;
+  flex:2
 }
 
 @media (max-width: 550px) {
