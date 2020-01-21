@@ -1,5 +1,8 @@
 .jumbo {
   height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
 }
 
 .jumbo h1 {
@@ -19,11 +22,15 @@
   margin-top: 6.5rem;
   margin-bottom: 6rem;
   width: 100%;
-  display: flex;
 }
 
 .jumbo_content p {
   font-size: 1.5rem;
+}
+
+.jumbo img {
+  width: 350px;
+  height: 408px;
 }
 
 @media (max-width: 550px) {
