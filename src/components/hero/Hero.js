@@ -58,7 +58,6 @@ const Hero = () => (
         src = {me}
         alt = {"me"}
       />
-      
       <h3>
         Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
         design and hack noice websites together on the internet.
@@ -70,7 +69,7 @@ const Hero = () => (
           <span style={{ color: "blueviolet" }}>john.doe@gmail.com</span>
         </a>
       </p>
-      <br />
+      
     </div>
   </Jumbotron>
 )
