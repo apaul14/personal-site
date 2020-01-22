@@ -4,7 +4,7 @@
 
 .jumbo h1 {
   line-height: 125%;
-  flex:2
+  flex:3
 }
 
 .jumbo h2 {
@@ -20,12 +20,12 @@
 }
 .jumbo_content {
   margin-top: 6.5rem;
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
 }
 
 .jumbo_content p {

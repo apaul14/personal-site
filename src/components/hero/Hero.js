@@ -56,8 +56,9 @@ const Hero = () => (
       <h1>Hi, I'm Alex, Software Engineer and Web Developer based in New York.</h1>
       <img 
         src = {me}
-        alt = {"sup"}
+        alt = {"me"}
       />
+      
       <h3>
         Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
         design and hack noice websites together on the internet.
