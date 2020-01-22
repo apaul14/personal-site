@@ -69,7 +69,7 @@ const Hero = () => (
           <span style={{ color: "blueviolet" }}>john.doe@gmail.com</span>
         </a>
       </p>
-      <br />
+      
     </div>
   </Jumbotron>
 )
