@@ -19,7 +19,7 @@
   flex: 1;
 }
 .jumbo_content {
-  margin-top: 6.5rem;
+  margin-top: 2.5rem;
   margin-bottom: 6rem;
   width: 100%;
   display: flex;
@@ -33,9 +33,11 @@
 }
 
 .jumbo img {
-  width: 350px;
-  height: 408px;
-  flex:2
+  border-radius: 65%;
+  max-width: 350px;
+  max-height: 408px;
+  flex:1;
+  
 }
 
 @media (max-width: 550px) {

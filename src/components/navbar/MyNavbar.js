@@ -20,7 +20,7 @@ const MyNavbar = () => (
         <li className="float_right">
           {/* eslint-disable-next-line */}
           <a
-            href="https://www.github.com/"
+            href="https://www.github.com/apaul14"
             target="_blank"
             rel="noopener noreferrer"
             className="menu_link"
