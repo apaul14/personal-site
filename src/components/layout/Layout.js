@@ -42,6 +42,14 @@ const Layout = ({ children }) => (
             `Fetch`,
             `Javascript`,
             `Frontend Developer`,
+            `Backend Developer`,
+            `Software Engineer`,
+            `Javascript`,
+            `Node`,
+            `Express`,
+            `Redux`,
+            `SQL`,
+            `PostgreSQL`
           ]}
         />
         <MyNavbar />
