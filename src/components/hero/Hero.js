@@ -9,16 +9,12 @@
 // const Hero = () => (
 //   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
 //     <div className="jumbo_content">
-//       <h1>Hi, I'm Alex, Software Engineer and Web Developer based in New York.</h1>
+//       <h1>Hey, I'm a Software developer from Gitland, living in ACME City.</h1>
 //       <br />
 //       <h3>
 //         Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
 //         design and hack noice websites together on the internet.
 //       </h3>
-//       <img 
-//         src = {me}
-//         alt = {"sup"}
-//       />
 //       <p>Have a project you'd like to discuss?</p>
 //       <p>
 //         Let's chat{" "}
@@ -50,18 +46,22 @@ import SocialRow from "../SocialRow/SocialRow"
 
 
 const Hero = () => (
-  <Jumbotron style={jumbo_styles} className="jumbo" fluid>
+  <Jumbotron style={jumbo_styles} className="jumbo" fluid >
     <div className="jumbo_content">
-      <Container>
+      <Container fluid >
         <Row>
           <Col xs={12} md={8}>
-            {<h1>Hello, I'm Alex, Software Engineer and Web Developer based in New York.</h1>}
+            <h1>Hello!</h1>
+            <br/>
+            <h2>I'm Alex, Software Engineer and Web Developer based in New York.</h2>
           </Col>
           <Col  xs={6} md={4}>
             <Image
+              fluid
+              roundedCircle
               src = {me}
               alt = "me"
-              fluid/>
+            />
           </Col>
         </Row>  
       </Container>    
@@ -69,23 +69,21 @@ const Hero = () => (
         Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
         design and hack noice websites together on the internet.
       </h3> */}
-      <p>Have a project you'd like to discuss?</p>
-      <p>
+      <p>  Have a project you'd like to discuss?</p>
+      {/* <p>
         Let's chat{" "}
         <a href="mailto:john.doe@gmail.com">
           <span style={{ color: "blueviolet" }}>john.doe@gmail.com</span>
         </a>
       </p>
-      <br />
+      <br /> */}
     </div>
   </Jumbotron>
 )
 
 const jumbo_styles = {
   backgroundColor: "#fff",
-  paddingLeft: "1rem",
+  paddingLeft: "1rem"
 }
 
 export default Hero
-
-

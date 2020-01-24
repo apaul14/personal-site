@@ -16,9 +16,9 @@ export default () => (
     <Layout>
       <Hero />
       <hr />
-      <Summary />
-      <hr />
       <Projects />
+      <hr />
+      <Summary />
       <hr />
     </Layout>
   </div>
