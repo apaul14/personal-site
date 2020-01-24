@@ -6,7 +6,6 @@
 // import "./hero.css"
 // import SocialRow from "../SocialRow/SocialRow"
 
-
 // const Hero = () => (
 //   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
 //     <div className="jumbo_content">
@@ -42,7 +41,7 @@
 // export default Hero
 
 import React from "react"
-import { Jumbotron, Container, Col, Row, Media, Image } from "react-bootstrap"
+import { Jumbotron, Container, Col, Row, Image } from "react-bootstrap"
 import me from "../../images/me.png"
 
 //import custom styles
@@ -66,11 +65,6 @@ const Hero = () => (
           </Col>
         </Row>  
       </Container>    
-      {/* <img 
-        src = {me}
-        alt = {"me"}
-      /> */}
-      
       {/* <h3>
         Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
         design and hack noice websites together on the internet.
