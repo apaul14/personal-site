@@ -68,14 +68,14 @@ const Hero = () => (
       {/* <h3>
         Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
         design and hack noice websites together on the internet.
-      </h3> */
+      </h3> */}
       <p>Have a project you'd like to discuss?</p>
       <p>
         Let's chat{" "}
         <a href="mailto:john.doe@gmail.com">
           <span style={{ color: "blueviolet" }}>john.doe@gmail.com</span>
         </a>
-      </p> */}
+      </p>
       <br />
     </div>
   </Jumbotron>
