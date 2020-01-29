@@ -15,6 +15,7 @@ export default () => (
   <div className="App">
     <Layout>
       <Hero />
+      <br/>
       <hr />
       <Projects />
       <hr />

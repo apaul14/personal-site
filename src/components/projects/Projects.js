@@ -20,17 +20,17 @@ const Projects = () => (
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
         imageSrcPath={image}
-        title={"Cool React app"}
-        date={"2019-03-28"}
+        title={"Yellow Brick Road"}
+        date={"Dec 2019"}
         description={
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At impedit, provident esse adipisci ipsam accusamus. Vitae quae maiores quas beatae, quis cumque culpa itaque eveniet, vero nesciunt aspernatur odit optio."
+          "Augmented Reality Mobile App. Allows users to create, share, and take AR tours without GPS making it ideal for indoor/hard to track spaces"
         }
-        sourceURL={"https://github.com/"}
+        sourceURL={"https://github.com/Thunkaroos/YellowBrickRoad"}
         hostedURL={"http://www.google.com"}
       />
-      <Link to="/projects" className="blueViolet">
+      {/* <Link to="/projects" className="blueViolet">
         Go to Projects page ---->
-      </Link>
+      </Link> */}
     </Container>
   </React.Fragment>
 )
