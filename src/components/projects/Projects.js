@@ -10,6 +10,7 @@ import image from "../../images/portfolio/cabin.png"
 const Projects = () => (
   <React.Fragment>
     <Container fluid>
+      <br/>
       <h3 style={{ marginBottom: "1rem" }}> Latest Projects</h3>
       {/*/Props: 
       //imageSrcPath: the path to the image used 
@@ -26,7 +27,8 @@ const Projects = () => (
           "Augmented Reality Mobile App. Allows users to create, share, and take AR tours without GPS making it ideal for indoor/hard to track spaces"
         }
         sourceURL={"https://github.com/Thunkaroos/YellowBrickRoad"}
-        hostedURL={"http://www.google.com"}
+        //hostedURL={"http://www.google.com"}
+        demoVideo={"https://www.youtube.com/watch?v=qAMLpsmQKNo&list=PLx0iOsdUOUmnTCO5wLzNNeaLbbZLlngp6&index=22&t=0s"}
       />
       {/* <Link to="/projects" className="blueViolet">
         Go to Projects page ---->

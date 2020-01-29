@@ -18,6 +18,7 @@ export default () => (
       <br/>
       <hr />
       <Projects />
+      <br/>
       <hr />
       <Summary />
       <hr />
