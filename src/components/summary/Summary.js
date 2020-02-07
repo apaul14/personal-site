@@ -34,10 +34,10 @@ const Summary = () => (
     </Row>
     <br />
 
-    <h4 className="goal_text text-center">
+    {/* <h4 className="goal_text text-center">
       My biggest goal as an Engineer is to never stop learning, and work on cool
       stuff. Here's a couple of things I'm good at:
-    </h4>
+    </h4> */}
     <Row style={{ marginTop: "1.8rem" }}>
       <Col>
         <h4 className="hover_effect">Tagline1</h4>
