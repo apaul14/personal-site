@@ -32,6 +32,16 @@ const ProjectCard = props => {
 
           <p>{props.description}</p>
 
+          <h5>Tech Stack</h5>
+          
+          <ul>
+            {props.techStack.map(elem => 
+              <li>{elem}</li>
+            )}
+          </ul>
+
+          <br/>
+
           <Row>
             <MyButton text={"GitHub"} URL={props.sourceURL} /> 
             

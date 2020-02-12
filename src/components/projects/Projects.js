@@ -26,6 +26,7 @@ const Projects = () => (
         description={
           "Augmented Reality Mobile App. Allows users to create, share, and take AR tours without GPS making it ideal for indoor/hard to track spaces"
         }
+        techStack = {['PostGreSQL','Node.js','React Native', 'Viro React', 'Redux']}
         sourceURL={"https://github.com/Thunkaroos/YellowBrickRoad"}
         //hostedURL={"http://www.google.com"}
         demoVideo={"https://www.youtube.com/watch?v=qAMLpsmQKNo&list=PLx0iOsdUOUmnTCO5wLzNNeaLbbZLlngp6&index=22&t=0s"}
