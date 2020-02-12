@@ -85,7 +85,7 @@ const Hero = () => (
 
 const jumbo_styles = {
   backgroundColor: "#fff",
-  paddingLeft: "1rem"
+  //paddingLeft: "1rem"
 }
 
 export default Hero

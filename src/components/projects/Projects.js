@@ -8,7 +8,7 @@ import ProjectCard from "../portProjectCard/ProjectCard"
 import image from "../../images/portfolio/cabin.png"
 
 const Projects = () => (
-  <React.Fragment>
+  <React.Fragment fluid>
     <Container fluid>
       <br/>
       <h3 style={{ marginBottom: "1rem" }}> Latest Projects</h3>
