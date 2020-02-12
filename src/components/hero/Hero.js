@@ -48,6 +48,7 @@ import SocialRow from "../SocialRow/SocialRow"
 const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid >
     <div className="jumbo_content">
+      <br/>
       <Container fluid >
         <Row>
           <Col xs={12} md={8}>
@@ -55,7 +56,7 @@ const Hero = () => (
             <br/>
             <h2>I'm Alex, Software Engineer and Web Developer based in New York.</h2>
           </Col>
-          <Col  xs={6} md={4}>
+          <Col  xs={3} md={4}>
             <Image
               fluid
               roundedCircle

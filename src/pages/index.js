@@ -14,9 +14,14 @@ import "./index.css"
 export default () => (
   <div className="App">
     <Layout>
+      <div>
+      <br/>
       <Hero />
       <br/>
+      <br/>
+      <br/>
       <hr />
+      </div>
       <Projects />
       <br/>
       <hr />
