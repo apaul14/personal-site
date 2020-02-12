@@ -36,7 +36,9 @@ const ProjectCard = props => {
           
           <ul>
             {props.techStack.map(elem => 
-              <li>{elem}</li>
+              <li key = {elem}>
+                -{elem}
+              </li>
             )}
           </ul>
 
