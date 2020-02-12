@@ -33,7 +33,7 @@ const ProjectCard = props => {
           <p>{props.description}</p>
 
           <Row>
-            <MyButton text={"Source Code"} URL={props.sourceURL} /> 
+            <MyButton text={"GitHub"} URL={props.sourceURL} /> 
             
             {props.hostedURL ? (
               <MyButton text={"Hosted App"} URL={props.hostedURL} /> 
