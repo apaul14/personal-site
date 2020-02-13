@@ -4,6 +4,7 @@ import Layout from "../components/layout/Layout"
 import Hero from "../components/hero/Hero"
 import Summary from "../components/summary/Summary"
 import Projects from "../components/projects/Projects"
+import AboutMe from "../components/AboutMe/AboutMe"
 
 //import bootstrap styles
 import "../bootstrap/css/bootstrap.min.css"
@@ -17,6 +18,10 @@ export default () => (
       <br/>
       <Hero />
       <br/>
+      <br/>
+      <br/>
+      <hr />
+      <AboutMe />
       <br/>
       <br/>
       <hr />
