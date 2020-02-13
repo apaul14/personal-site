@@ -4,7 +4,7 @@ import React from "react"
 // import MyButton from "../components/myButton/MyButton"
 
 import "../../fontawesome/css/all.min.css"
-// import "./index.css"
+import "./hero.css"
 
 import { Container, Row, Col } from "react-bootstrap"
 
@@ -13,6 +13,7 @@ const AboutMe = props => {
     
       <Container fluid>
         <h1 class = "about_me_h1">About Me</h1>
+        <br/>
         <Row>
           <p>
           I've had a lifelong interest in computers and technology in general, which recently led me to take up programming.
