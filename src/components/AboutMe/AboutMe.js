@@ -4,7 +4,7 @@ import React from "react"
 // import MyButton from "../components/myButton/MyButton"
 
 import "../../fontawesome/css/all.min.css"
-import "./hero.css"
+import "./AboutMe.css"
 
 import { Container, Row, Col } from "react-bootstrap"
 
