@@ -13,8 +13,9 @@ const AboutMe = props => {
     
       <Container fluid>
         <h1 class = "about_me_h1">About Me</h1>
+
         <br/>
-        <Row>
+        
           <p>
           I've had a lifelong interest in computers and technology in general, which recently led me to take up programming.
           After a period of self-teaching and exploring the opportunities that software engineering creates, I enrolled in Fullstack Academy to advance my web development skills.
@@ -42,7 +43,7 @@ const AboutMe = props => {
           I think my work ethic, attention to detail, and collaborative nature make me a great fit on any engineering team.
           
           </p> 
-        </Row>
+          
       </Container>
 
   )
