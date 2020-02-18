@@ -10,8 +10,8 @@ import image from "../../images/portfolio/cabin.png"
 const Projects = () => (
   <React.Fragment>
     <Container fluid>
-      <br/>
-      <h3 class="Projects"> Latest Projects</h3>
+      
+      <h2 class="Projects"> Latest Projects</h2>
       {/*/Props: 
       //imageSrcPath: the path to the image used 
       //title: The title of the card/App 
@@ -20,7 +20,7 @@ const Projects = () => (
       //sourceURL: URL to the source code of the project 
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
-        imageSrcPath={image}
+        // imageSrcPath={image}
         title={"Yellow Brick Road"}
         date={"Dec 2019"}
         description={

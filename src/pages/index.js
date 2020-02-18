@@ -19,12 +19,17 @@ export default () => (
       <Hero />
       <br/>
       <br/>
-      <br/>
       <hr />
+      <br/>
+      <br/>
       <AboutMe />
       <br/>
       <br/>
       <hr />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Projects />
       <br/>
       <hr />
