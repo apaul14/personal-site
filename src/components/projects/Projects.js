@@ -5,7 +5,7 @@ import "./projects.css"
 
 import ProjectCard from "../portProjectCard/ProjectCard"
 
-import image from "../../images/portfolio/cabin.png"
+import image from "../../images/Project_Card_Pic.png"
 
 const Projects = () => (
   <React.Fragment>
@@ -20,7 +20,7 @@ const Projects = () => (
       //sourceURL: URL to the source code of the project 
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
-        // imageSrcPath={image}
+        imageSrcPath={image}
         title={"Yellow Brick Road"}
         date={"Dec 2019"}
         description={
