@@ -17,7 +17,7 @@ const AboutMe = props => {
         <br/>
         
           <p>
-          I've had a lifelong interest in computers and technology in general, which recently led me to take up programming.
+          I've had a lifelong interest in computers and technology in general, which eventually led me to take up programming.
           After a period of self-teaching and exploring the opportunities that software engineering creates, I enrolled in Fullstack Academy to advance my web development skills.
           </p>
 
@@ -31,7 +31,7 @@ const AboutMe = props => {
           <br/>
 
           <p>
-          Technologies I'm now proficient with include Javascript and the PERN stack (Postgres, Express, React, Node), HTML, and CSS. 
+          Technologies I'm proficient with include Javascript and the PERN stack (Postgres, Express, React, Node), HTML, and CSS. 
           I am also comfortable with a number of the services offered by Firebase such as Cloud Firestore. 
           Technologies I'm gaining familiarity with include React Native and ViroReact AR platform.
           </p>

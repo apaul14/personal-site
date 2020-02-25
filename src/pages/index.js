@@ -32,7 +32,9 @@ export default () => (
       <br/>
       <Projects />
       <br/>
+      <br/>
       <hr />
+      <br/>
       <Summary />
       <hr />
     </Layout>
