@@ -15,6 +15,14 @@
   font-size: 1.5rem;
 }
 
+.tech_icons svg {
+  /* width: 17.7%; */
+  width: 30%;
+  height: 90%;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
 @media (max-width: 450px) {
   .tech_icons i {
     font-size: 4.5rem;
