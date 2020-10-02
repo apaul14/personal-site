@@ -71,7 +71,7 @@ const Hero = () => (
         Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
         design and hack noice websites together on the internet.
       </h3> */}
-      <p> Have a project you'd like to discuss?</p>
+      {/* <p> Have a project you'd like to discuss?</p> */}
       {/* <p>
         Let's chat{" "}
         <a href="mailto:john.doe@gmail.com">
