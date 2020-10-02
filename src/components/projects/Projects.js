@@ -22,7 +22,7 @@ const Projects = () => (
       <ProjectCard
         imageSrcPath={image}
         title={"Yellow Brick Road"}
-        date={"Dec 2019"}
+        // date={"Dec 2019"}
         description={
           "Augmented Reality Mobile App. Allows users to create, share, and take AR tours without GPS making it ideal for indoor/hard to track spaces"
         }
