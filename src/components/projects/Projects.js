@@ -26,11 +26,23 @@ const Projects = () => (
         description={
           "Augmented Reality Mobile App. Allows users to create, share, and take AR tours without GPS making it ideal for indoor/hard to track spaces"
         }
-        techStack = {['PostGreSQL','Node.js','React Native', 'Viro React', 'Redux']}
+        techStack = {['PostGreSQL','Node.js','Express','React Native', 'Viro React', 'Redux']}
         sourceURL={"https://github.com/Thunkaroos/YellowBrickRoad"}
         //hostedURL={"http://www.google.com"}
         demoVideo={"https://www.youtube.com/watch?v=qAMLpsmQKNo&list=PLx0iOsdUOUmnTCO5wLzNNeaLbbZLlngp6&index=22&t=0s"}
       />
+      <ProjectCard
+        imageSrcPath={image}
+        title={"Rolling Schones"}
+        description={
+          "Mock e-commerce site for a ficticious bakery. Yum!"
+        }
+        techStack = {['PostGreSQL','Node.js', 'Express','React', 'Redux']}
+        sourceURL={"https://github.com/1909-Cookie-Monsters/rolling-scones"}
+        hostedURL={"http://therollingscones.herokuapp.com/home"}
+        //demoVideo={"https://www.youtube.com/watch?v=qAMLpsmQKNo&list=PLx0iOsdUOUmnTCO5wLzNNeaLbbZLlngp6&index=22&t=0s"}
+      />
+      
       {/* <Link to="/projects" className="blueViolet">
         Go to Projects page ---->
       </Link> */}
