@@ -21,6 +21,19 @@ const Projects = () => (
       //sourceURL: URL to the source code of the project 
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
+        //imageSrcPath={arguidesimg}
+        title={"Price Checker (currently in progress)"}
+        // date={"Dec 2019"}
+        description={
+          "Current Project. Price Checker (working title) is a mobile app that will allow one to compare prices of items between different grocery stores, delis, etc. Many stores in the same area will offer the same products/brands at different prices, and it is often hard to keep track of which stores offer better deals on particular items. Price Checker aims to alleviate this by keeping track of which stores offer different products at lower prices. Users can scan or lookup an item, and if they've registered it before with a different store, it will give an alert whether the item can be found for a lower price or not"
+        }
+        techStack = {['PostGreSQL','Node.js','Express','React Native','Redux']}
+        sourceURL={"https://github.com/apaul14/price-checker-front-end"}
+        hostedURL={"https://github.com/apaul14/price-checker-front-end"}
+        //demoVideo={"https://www.youtube.com/watch?v=qAMLpsmQKNo&list=PLx0iOsdUOUmnTCO5wLzNNeaLbbZLlngp6&index=22&t=0s"}
+      />
+
+      <ProjectCard
         imageSrcPath={arguidesimg}
         title={"Yellow Brick Road"}
         // date={"Dec 2019"}
