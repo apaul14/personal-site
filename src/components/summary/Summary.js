@@ -7,7 +7,7 @@ import "../../fontawesome/css/all.min.css"
 import "./summary.css"
 
 //import express from "../../images/tech icons/expressIcon.png"
-import express from "../../images/tech icons/express-109.svg"
+//import express from "../../images/tech icons/express-109.svg"
 
 
 
