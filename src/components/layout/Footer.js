@@ -23,7 +23,7 @@ const Footer = () => (
           </p>
         </Col>
       </Row>
-      <Row>
+      {/* <Row>
         <Col
           style={{
             textDecoration: "underline",
@@ -51,7 +51,7 @@ const Footer = () => (
             <span className="link_styles">Projects</span>
           </Link>
         </Col>
-      </Row>
+      </Row> */}
 
       {/* TODO: Make use of the SocialRow component to make the below icons obsolete */}
 
@@ -74,7 +74,7 @@ const Footer = () => (
             <i className="fab fa-linkedin hover_effect" />
           </a>
         </Col>
-        <Col>
+        {/* <Col>
           <a
             href="https://twitter.com/"
             target="_blank"
@@ -108,12 +108,14 @@ const Footer = () => (
           <a href="https://angel.co/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-angellist hover_effect" />
           </a>
-        </Col>
+        </Col> */}
       </Row>
       <Row className="text-center" style={{ marginTop: "3rem" }}>
-        <Col>
-          Alex Paul © {new Date().getFullYear()}, Built with
-          <i
+        {/* <Col>
+          Alex Paul © {new Date().getFullYear()}, Built with */}
+          <Col>
+          Alex Paul © {new Date().getFullYear()}
+          {/* <i
             className="fas fa-mug-hot"
             style={{
               marginLeft: "10px",
@@ -124,7 +126,7 @@ const Footer = () => (
           <a href="https://www.gatsbyjs.org">
             {" "}
             <span className="blueViolet">& Gatsby</span>
-          </a>
+          </a> */}
         </Col>
       </Row>
     </Container>

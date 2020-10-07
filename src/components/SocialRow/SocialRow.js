@@ -25,7 +25,7 @@ export default () => (
         <i className="fab fa-linkedin hover_effect" />
       </a>
     </Col>
-    <Col>
+    {/* <Col>
       <a
         style={{ color: "#000" }}
         href="https://twitter.com/"
@@ -67,6 +67,6 @@ export default () => (
       >
         <i className="fab fa-angellist hover_effect" />
       </a>
-    </Col>
+    </Col> */}
   </Row>
 )
