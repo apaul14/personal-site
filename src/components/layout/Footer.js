@@ -17,10 +17,10 @@ const Footer = () => (
             alexspaul53@gmail.com
           </p>
           <br />
-          <p style={{ fontSize: "1.3rem" }}>
+          {/* <p style={{ fontSize: "1.3rem" }}>
             I'm a great developer that loves to code. I can help you grow your
             next product.
-          </p>
+          </p> */}
         </Col>
       </Row>
       {/* <Row>

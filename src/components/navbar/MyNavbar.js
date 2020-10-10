@@ -29,20 +29,20 @@ const MyNavbar = () => (
           </a>
         </li>
         <li className="float_right">
-          <Link to="/projects" className="menu_link">
+          <Link to="/Projects" className="menu_link">
             Projects
           </Link>
         </li>
         <li className="float_right">
-          <Link to="/about" className="menu_link">
+          <Link to="/About" className="menu_link">
             About
           </Link>
         </li>
-        <li className="float_right">
+        {/* <li className="float_right">
           <Link to="/" className="menu_link">
             Home
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   </div>
