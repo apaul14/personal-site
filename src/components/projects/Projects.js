@@ -12,7 +12,7 @@ const Projects = () => (
   <React.Fragment>
     <Container fluid>
       
-      <h2 class="Projects"> Latest Projects</h2>
+      <h2 id="Projects"> Latest Projects</h2>
       {/*/Props: 
       //imageSrcPath: the path to the image used 
       //title: The title of the card/App 
