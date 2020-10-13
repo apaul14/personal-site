@@ -7,6 +7,7 @@ import ProjectCard from "../portProjectCard/ProjectCard"
 
 import arguidesimg from "../../images/AR-Guides.png"
 import rollingsconesimg from "../../images/Rolling-Scones.png"
+import inprogress from "../../images/In_progress.png"
 
 const Projects = () => (
   <React.Fragment>
@@ -21,7 +22,7 @@ const Projects = () => (
       //sourceURL: URL to the source code of the project 
       //hostedURL: URL to the hosted version of the app*/}
       <ProjectCard
-        //imageSrcPath={arguidesimg}
+        imageSrcPath={inprogress}
         title={"Price Checker (currently in progress)"}
         // date={"Dec 2019"}
         description={
