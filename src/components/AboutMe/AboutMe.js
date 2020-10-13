@@ -18,7 +18,7 @@ const AboutMe = props => {
         
           <p>
           I've had a lifelong interest in computers and technology in general, which eventually led me to take up programming.
-          After a period of self-teaching and exploring the opportunities that software engineering creates, I enrolled in Fullstack Academy to advance my web development skills.
+          After a period of self-teaching and exploring the opportunities that software engineering can create, I enrolled in the Fullstack Academy immserive program to advance my web development skills.
           </p>
 
           <br/>
@@ -33,14 +33,14 @@ const AboutMe = props => {
           <p>
           Technologies I'm proficient with include Javascript and the PERN stack (Postgres, Express, React, Node), HTML, and CSS. 
           I am also comfortable with a number of the services offered by Firebase such as Cloud Firestore. 
-          Technologies I'm gaining familiarity with include React Native and ViroReact AR platform.
+          Technologies I'm gaining familiarity with include React Native and the ViroReact AR platform.
           </p>
 
           <br/>
 
           <p>
           I have many varied interests (music and the arts, travel, food, hospitality) and I’m excited to apply my programming skills in these areas and beyond.
-          I think my work ethic, attention to detail, and collaborative nature make me a great fit on any engineering team.
+          My work ethic, attention to detail, and collaborative nature make me a great fit on any engineering team.
           
           </p> 
           
