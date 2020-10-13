@@ -39,7 +39,7 @@ const AboutMe = props => {
           <br/>
 
           <p>
-          I have many varied interests (music and the arts, travel, food, hospitality) and I’m excited to apply my programming skills in these areas.
+          I have many varied interests (music and the arts, travel, food, hospitality) and I’m excited to apply my programming skills in these areas and beyond.
           I think my work ethic, attention to detail, and collaborative nature make me a great fit on any engineering team.
           
           </p> 
