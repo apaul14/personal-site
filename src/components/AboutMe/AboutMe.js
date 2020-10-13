@@ -12,7 +12,7 @@ const AboutMe = props => {
   return (
     
       <Container fluid>
-        <h1 id = "About" class = "about_me_h1">About Me</h1>
+        <h3 id = "About" class = "about_me_h1">About Me</h3>
 
         <br/>
         
