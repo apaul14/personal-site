@@ -11,7 +11,7 @@ import "./summary.css"
 
 const Summary = () => (
   <Container className="content" fluid>
-    <h2>Technolgies I work with</h2>
+    <h2>Some Technolgies I work with</h2>
 
     <br />
 
@@ -32,7 +32,7 @@ const Summary = () => (
           <ul>
             <li>HTML</li>
             <li>CSS</li>
-            <li>React</li>
+            <li>React/React Native</li>
             <li>Redux</li>
           </ul>        
         </Container>
@@ -45,14 +45,13 @@ const Summary = () => (
           <br/>
           <ul>
             <li>PostgreSQL</li>
+            <li>Firebase</li>
             <li>Sequelize</li>
             <li>Node.js</li>
             <li>Express</li>
-            <li></li>
           </ul>
         </Container>
       </Col>
-
     </Row>
   </Container>
 )
