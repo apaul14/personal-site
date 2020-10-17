@@ -32,7 +32,7 @@ const AboutMe = props => {
 
           <p>
           Technologies I'm proficient with include Javascript and the PERN stack (Postgres, Express, React, Node), HTML, and CSS. 
-          I am also comfortable with a number of the services offered by Firebase such as Cloud Firestore. 
+          I am also comfortable with Gatsby and a number of the services offered by Firebase such as Cloud Firestore. 
           Technologies I'm gaining familiarity with include React Native and the ViroReact AR platform.
           </p>
 
